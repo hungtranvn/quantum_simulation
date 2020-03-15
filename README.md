@@ -1,3 +1,3 @@
 # quantum_simulation
-Paralell computation with mpi
+A quick introduction about paralell computation with mpi \
 Solve quantum programs by computation
