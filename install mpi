@@ -1,0 +1,7 @@
+# fedora \
+sudo dnf install openmpi \
+sudo dnf install openmpi-devel \
+# show the directory of compiler binaries \
+which mpicc \
+which mpicxx \
+which mpif90 \
