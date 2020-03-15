@@ -6,7 +6,8 @@ which mpicc \
 which mpicxx \
 which mpif90 \
 # good source for learning mpi \
-Using MPI portable parallel programming with the Message-Passing Interface. MIT press
+Using MPI portable parallel programming with the Message-Passing Interface. MIT press \
+https://people.sc.fsu.edu/~jburkardt/c_src/ \
 
 # compiel program on linux environment \
 c++: mpicxx source_file.cpp -o file_name \
