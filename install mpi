@@ -5,3 +5,5 @@ sudo dnf install openmpi-devel \
 which mpicc \
 which mpicxx \
 which mpif90 \
+# good source for learning mpi \
+Using MPI portable parallel programming with the Message-Passing Interface. MIT press
