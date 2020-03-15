@@ -1,6 +1,11 @@
 #include <mpi.h>
 #include <math.h>
 
+/*
+ * This program computes pi number by integrating the function
+ * dx/(1 + x^2) from [0,1] then multiple by 4
+ * */
+
 int main(int argc, char *argv[])
 {
     int myid, num_procs, i, proc_len, n=0;
