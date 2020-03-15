@@ -7,3 +7,13 @@ which mpicxx \
 which mpif90 \
 # good source for learning mpi \
 Using MPI portable parallel programming with the Message-Passing Interface. MIT press
+
+# compiel program on linux environment \
+c++: mpicxx source_file.cpp -o file_name \
+c: mpicc source_file.c -o file_name \
+fortran: mpif90 source_file.f90 -o file_name \
+
+# execute the program \
+mpiexec -np number_cores file_name \
+or \
+mpirun -np number_cores file_name \
